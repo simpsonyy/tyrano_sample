@@ -1,6 +1,6 @@
 *start
 
-[title name="エンドレス・デッドライン"]
+[title name="デッドライン"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
@@ -14,7 +14,9 @@
 
 [link target=*tag_run] →とにかくPCを起動する [endlink][r]
 [link target=*tag_sleep] →気のせいだ。二度寝する [endlink][r]
+
 [s]
+
 
 *tag_sleep
 
@@ -29,18 +31,21 @@
 
 [jump target=*start]
 
+
 *tag_run
 
 [cm]
 [bg storage=pc.jpg time=500]
 
 PCを起動した。デスクトップに見慣れたフォルダがある。[l][r]
-フォルダ名は「完成版.zip」。[l][r]
-……開くのが怖い。昨日、何を間違えた？[l][r]
+フォルダ名は「提出.zip」。[l][r]
+開くのが怖い。昨日、何を間違えた？[l][r]
 
 [link target=*tag_submit] →見直さず、そのまま提出する [endlink][r]
 [link target=*tag_check] →中身を確認する [endlink][r]
+
 [s]
+
 
 *tag_submit
 
@@ -54,14 +59,17 @@ PCを起動した。デスクトップに見慣れたフォルダがある。[l]
 
 [jump target=*start]
 
+
 *tag_check
 
 [cm]
 [bg storage=idea.jpg time=500]
 
 ファイルを開き、昨日の記憶を必死で辿る。[l][r]
-（そうだ……！ 画像のライセンス表記が漏れていたんだ！）[l][r]
+（そうだ！ 学籍番号を書き忘れていたんだ！）[l][r]
+
 急いで修正し、今度こそ完璧なデータを提出した。[l][r]
+
 翌朝。アラームは鳴らなかった。窓の外は、新しい朝だ。[l][r]
 
 【 GOOD END 】[l][cm]
