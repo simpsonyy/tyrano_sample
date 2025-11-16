@@ -1,33 +1,29 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="エンドレス・デッドライン"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
+[cm]
+[bg storage=sleep.jpg time=500]
 
-「走るか寝るかするメロス」[l][r]
+けたたましくアラームが鳴っている。[l][r]
+あれ？[l][r]
+この感覚には覚えがある。今日は確か、課題の提出日だ。[l][r]
+だが、昨日も「課題の提出日」だった気がする。[l][r]
 
-メロスは激怒した。[l][r]
-
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_run] →とにかくPCを起動する [endlink][r]
+[link target=*tag_sleep] →気のせいだ。二度寝する [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
-
 [bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+すべて夢だ……。[l][r]
+次に目が覚めた時、聞こえてきたのは……。[l][r]
+けたたましくアラームが鳴っている。[l][r]
 
 【 BAD END 】[l][cm]
 
@@ -35,11 +31,38 @@
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+[cm]
+[bg storage=pc.jpg time=500]
+
+PCを起動した。デスクトップに見慣れたフォルダがある。[l][r]
+フォルダ名は「完成版.zip」。[l][r]
+……開くのが怖い。昨日、何を間違えた？[l][r]
+
+[link target=*tag_submit] →見直さず、そのまま提出する [endlink][r]
+[link target=*tag_check] →中身を確認する [endlink][r]
+[s]
+
+*tag_submit
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+[bg storage=pc.jpg time=500]
+
+「Done is better than perfect」[l][r]
+提出ボタンをクリックした！……その瞬間、意識が遠のく。[l][r]
+
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_check
+
+[cm]
+[bg storage=idea.jpg time=500]
+
+ファイルを開き、昨日の記憶を必死で辿る。[l][r]
+（そうだ……！ 画像のライセンス表記が漏れていたんだ！）[l][r]
+急いで修正し、今度こそ完璧なデータを提出した。[l][r]
+翌朝。アラームは鳴らなかった。窓の外は、新しい朝だ。[l][r]
 
 【 GOOD END 】[l][cm]
 
